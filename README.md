@@ -31,6 +31,9 @@ SENG-21222-Sales-Report-Generator/
 ├── README.md
 └── sample_sales.csv                                 # Sample input file
 
+---
+
+
 2. How to Compile
 
 From the SalesReporter/ project root:
