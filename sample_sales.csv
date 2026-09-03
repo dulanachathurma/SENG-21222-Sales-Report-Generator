@@ -1,0 +1,7 @@
+product_id, product_name, category, quantity_sold, unit_price
+P001, Wireless Mouse, Electronics, 12, 25.50
+P002, Notebook, Stationery, 35, 3.75
+P003, Bluetooth Speaker, Electronics, 8, 45.00
+P004, Ball Pen Pack, Stationery, 60, 2.50
+P005, USB-C Cable, Electronics, 20, 9.99
+P006, Desk Lamp, Home & Office, 15, 18.75
