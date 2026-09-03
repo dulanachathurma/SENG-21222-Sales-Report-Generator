@@ -1,4 +1,4 @@
-# SalesReporter — Command-Line Product Sales Report Generator
+# Sales Reporter — CommandLine Product Sales Report Generator
 
 Course: SENG 21222 - Software Construction 
 
