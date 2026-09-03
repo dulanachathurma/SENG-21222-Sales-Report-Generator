@@ -5,33 +5,32 @@ Course: SENG 21222 - Software Construction
 Assignment: Group Assignment — CLI Sales Report Generator
 
 This project has been fully built, compiled, and tested (all 10 JUnit 5 tests pass). No placeholders, no TODOs.
-⸻
-1. Folder Structure
+### 📂 Project Directory Structure
 
-SalesReporter/
-├── src/
-│   ├── SalesReporter.java                # Main class (Member 3)
-│   ├── model/
-│   │   ├── Product.java                  # Member 1
-│   │   └── SalesReport.java              # Member 1
-│   ├── service/
-│   │   ├── CsvReader.java                # Member 2
-│   │   └── SalesCalculator.java          # Member 1
-│   ├── strategy/
-│   │   ├── OutputStrategy.java           # Strategy interface
-│   │   ├── ConsoleOutputStrategy.java
-│   │   └── FileOutputStrategy.java
-│   └── exception/
-│       ├── InvalidArgumentsException.java   # Member 3
-│       └── InvalidCsvFormatException.java   # Member 3
-├── test/
-│   └── SalesCalculatorTest.java          # JUnit 5 tests (Member 2)
+```text
+SENG-21222-Sales-Report-Generator/
 ├── lib/
-│   └── junit-platform-console-standalone-1.9.1.jar   # for running tests without Maven
-├── sample_sales.csv                       # sample input file
-└── README.md
+│   └── junit-platform-console-standalone-1.9.1.jar  # JUnit 5 runner
+├── src/
+│   ├── exception/
+│   │   ├── InvalidArgumentException.java            # Member 3
+│   │   └── InvalidCsvFormatException.java           # Member 3
+│   ├── model/
+│   │   ├── Product.java                             # Member 1
+│   │   └── SalesReport.java                         # Member 1
+│   ├── service/
+│   │   ├── CsvReader.java                           # Member 1
+│   │   └── SalesCalculator.java                     # Member 2
+│   ├── strategy/
+│   │   ├── ConsoleOutputStrategy.java               # Member 2
+│   │   ├── FileOutputStrategy.java                  # Member 2
+│   │   └── OutputStrategy.java                      # Strategy Interface
+│   └── SalesReporter.java                           # Main CLI Class (Member 3)
+├── test/
+│   └── SalesCalculatorTest.java                     # JUnit 5 tests (Member 2)
+├── README.md
+└── sample_sales.csv                                 # Sample input file
 
-⸻
 2. How to Compile
 
 From the SalesReporter/ project root:
