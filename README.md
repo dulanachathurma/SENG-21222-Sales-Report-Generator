@@ -97,6 +97,8 @@ product_id, product_name, category, quantity_sold, unit_price
 P001, Wireless Mouse, Electronics, 12, 25.50
 P002, Notebook, Stationery, 35, 3.75
 
+# Output
+
 <img width="965" height="458" alt="Screenshot 2026-09-03 at 14 05 29" src="https://github.com/user-attachments/assets/58204749-8222-4fa9-af69-8e3878aa08d2" />
 
 
